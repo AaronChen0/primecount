@@ -3,6 +3,8 @@
 Prime counting of sublinear complexity in Common Lisp.
 <pre>Time  Complexity: O(x<sup>3/4</sup>)  
 Space Complexity: O(x<sup>1/2</sup>)</pre>
+Using sbcl, it can count primes under 10^12 under 8s, which outperforms sympy and pari-gp. 
+Also it can sum primes, count primes of the forms 4m+1 and 4m+3.
 
 ## Benchmarks
 <table>

@@ -43,9 +43,9 @@ Space Complexity: O(x<sup>1/2</sup>)</pre>
   </tr>
 </table>
 
-The benchmarks were made on my 1.9GHz old laptop.  
-It can be seen that the gaps between different lisp  
-systems are quite large.
+The benchmarks were made on my 1.9 GHz old laptop.  
+It can be seen that the gaps between different lisp systems  
+are quite large.
 
 ## Usage Examples
 
@@ -63,12 +63,24 @@ systems are quite large.
 ;; test if the results of prime-count match those of 
 ;; prime-count-mod4
 (defun test (range times)
-  (loop repeat times for i = (random range)
+  (loop repeat times
+     for i = (random range)
      do (multiple-value-bind (n1 n3) 
             (primecount:prime-count-mod4 i)
           (assert (= (primecount:prime-count i)
                      (+ n1 n3 1))))))
 (test 1000000000 10)
+```
+
+## Installation
+
+``` bash
+cd ~/my/quicklisp/local-projects/
+git clone https://github.com/AaronChen0/primecount.git
+```
+
+``` common-lisp
+(ql:quickload "primecount")
 ```
 
 ## Algorithm
@@ -78,4 +90,4 @@ It uses an optimzed sieving method as shown in
 
 ## Todo
 Implement more efficient algorithms in pure Common Lisp.  
-A good reference is https://github.com/kimwalisch/primecount
+A good reference is https://github.com/kimwalisch/primecount.

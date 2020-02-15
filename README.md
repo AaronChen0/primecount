@@ -14,32 +14,32 @@ Space Complexity: O(x<sup>1/2</sup>)</pre>
     <td><b>CLISP</b></td>
   </tr>
   <tr align="center">
-    <td><b>10<sup>9</sup></b></td>
-    <td><b>50847534</b></td>
-    <td><b>0.06s</b></td>
-    <td><b>0.19s</b></td>
-    <td><b>1.64s</b></td>
+    <td>10<sup>9</sup></td>
+    <td>50847534</td>
+    <td>0.06s</td>
+    <td>0.19s</td>
+    <td>1.64s</td>
   </tr>
   <tr align="center">
-    <td><b>10<sup>10</sup></b></td>
-    <td><b>455052511</b></td>
-    <td><b>0.29s</b></td>
-    <td><b>0.97s</b></td>
-    <td><b>8.47s</b></td>
+    <td>10<sup>10</sup></td>
+    <td>455052511</td>
+    <td>0.29s</td>
+    <td>0.97s</td>
+    <td>8.47s</td>
   </tr>
   <tr align="center">
-    <td><b>10<sup>11</sup></b></td>
-    <td><b>4118054813</b></td>
-    <td><b>1.47s</b></td>
-    <td><b>5.03s</b></td>
-    <td><b>43.26s</b></td>
+    <td>10<sup>11</sup></td>
+    <td>4118054813</td>
+    <td>1.47s</td>
+    <td>5.03s</td>
+    <td>43.26s</td>
   </tr>
   <tr align="center">
-    <td><b>10<sup>12</sup></b></td>
-    <td><b>37607912018</b></td>
-    <td><b>7.61s</b></td>
-    <td><b>25.8s</b></td>
-    <td><b>222.36s</b></td>
+    <td>10<sup>12</sup></td>
+    <td>37607912018</td>
+    <td>7.61s</td>
+    <td>25.88s</td>
+    <td>222.36s</td>
   </tr>
 </table>
 

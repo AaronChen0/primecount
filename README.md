@@ -87,7 +87,7 @@ git clone https://github.com/AaronChen0/primecount.git
 
 ## Algorithm
 The origin idea came from Lucy_Hedgehog from projecteuler.  
-It uses an optimzed sieving method as shown in
+It uses an optimized sieving method as shown in
 [sympy](https://docs.sympy.org/latest/modules/ntheory.html#sympy.ntheory.generate.primepi).
 
 ## Todo

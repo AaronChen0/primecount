@@ -66,7 +66,7 @@ are quite large.
 ;; prime-count-mod4
 (defun test (range times)
   (loop repeat times
-     for i = (random range)
+     for i = (+ 2 (random range)) 
      do (multiple-value-bind (n1 n3) 
             (primecount:prime-count-mod4 i)
           (assert (= (primecount:prime-count i)
